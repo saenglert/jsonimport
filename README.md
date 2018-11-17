@@ -11,12 +11,11 @@ A quick example for how to import JSON files in Typescript properly (well, at le
 npm run build
 ```
 
-## Usage
+## Auto Build & Usage
 ```
-node dist/src/index.js
+npm run dev
 ```
-The script should output the following:
+A blank browser window should open and the terminal should output the following:
 ```
-user@user-pc:~/git/hfu$ node dist/src/index.js
 Import { books: [ { author: 'Georg Orwell', title: '1984' } ] }
 ```
